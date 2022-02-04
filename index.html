@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <a href="#!" class="active">Часы</a>
+            <a href="#!">Часы 2</a>
+            <a href="#!">Текст</a>
+            <a href="#!" >Секундомер <span class="indicator"></span></a>
+            <a href="#!">Таймер</a>
+        </div>
+        <div class="content">
+            <div class="item active">
+                <div class="clock">
+                    <div class="numberClock">
+                        <div class="numberClock-item H"><span>00</span>час.</div>
+                        <div class="numberClock-item M"><span>00</span>мин.</div>
+                        <div class="numberClock-item S"><span>00</span>сек.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="arrClock">
+                    <div class="arr-numbers">
+                        <div class="arr-num num12">12</div>
+                        <div class="arr-num num3">3</div>
+                        <div class="arr-num num6">6</div>
+                        <div class="arr-num num9">9</div>
+                        <div class="arr-num arr num1-7"></div>
+                        <div class="arr-num arr num2-8"></div>
+                        <div class="arr-num arr num4-10"></div>
+                        <div class="arr-num arr num5-11"></div>
+                    </div>
+                    <div class="arrow">
+                        <div class="arrS"></div>
+                        <div class="arrM"></div>
+                        <div class="arrH"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="text">
+                    <p class="text1">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Заманивший гор единственное себя мир маленький. Даже повстречался лучше толку агентство ручеек власти его рукопись однажды даль, инициал текстами пустился!</p>
+                    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam dolore vel tempore distinctio, cumque libero sit minima, rem fuga ut rerum hic repellendus tenetur, vero debitis soluta. Ullam, libero!</p> 
+                     <button type="button" class="generate">Генерировать</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="stopWatch">
+                    <div class="stopWatch-clock">
+                        <div class="stopWatch-item numM"><span>00</span>мин.</div>
+                        <div class="stopWatch-item numS"><span>00</span>сек.</div>
+                        <div class="stopWatch-item numMi"><span>00</span>мил.</div>
+                    </div>
+                    <div class="stopWatch-indicators">
+                        <button class="stopwatch-btn start">start</button>
+                       <button class="stopwatch-btn result">result</button>
+                    </div>
+                    <div class="stopWatch-result"></div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="taimer">
+                    <div class="taimer-clock">
+                        <div class="taimer-item  taimerH"><input type="text" placeholder="00"> час.</div>
+                         <div class="taimer-item taimerM"><input type="text" placeholder="00"> мин.</div>
+                         <div class="taimer-item taimerS"><input type="text" placeholder="00"> сек.</div>
+                       <div class="taimer-item  taimerMi"><input type="text" placeholder="00"> мил.</div>
+                    </div>
+                    <div class="taimer-indicators">
+                        <button class="taimer-btn taimerStart">start</button>
+                        <button class="taimer-btn taimerStop">clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
